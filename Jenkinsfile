@@ -4,9 +4,9 @@ pipeline {
     stages {
         
 
-        stage('Run App') {
+        stage('Run Python') {
             steps {
-                bat '"C:\Users\Hp\ANACONDA FILE\python.exe" app.py '
+                bat '"C:\\Users\\Hp\\ANACONDA FILE\\python.exe" app.py '
             }
         }
     }
